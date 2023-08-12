@@ -1,1 +1,1 @@
-# buybeyond
+# buy-beyond
