@@ -1,9 +1,9 @@
 import PropTypes from "prop-types"
 
-const StepCard = ({imgSrc, key, text}) => {
+const StepCard = ({imgSrc, key, text, className}) => {
   return (
     <div
-      className="card  flex-row align-items-center justify-content-center"
+      className={`${className} card flex-row align-items-center justify-content-center`}
     >
       <img
         src={imgSrc}
@@ -19,6 +19,7 @@ const StepCard = ({imgSrc, key, text}) => {
 }
 
 StepCard.propTypes = {
+  className: PropTypes.string.isRequired,
   imgSrc: PropTypes.string.isRequired,
   key: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired
