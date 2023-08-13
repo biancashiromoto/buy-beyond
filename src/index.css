@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Pacifico&display=swap');
+
+:root {
+  --font-01: 'Pacifico', cursive;
+  --font-02: 'Caprasimo', cursive;
+
+  --beige: #d8ccc0;
+  --blue: #379adc;
+  --gren: #ccd33d;
+  --light-blue: #79a6bd;
+  --maroon: #2b1b19;
+  --orange: #e76700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
