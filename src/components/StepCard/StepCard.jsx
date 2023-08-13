@@ -10,6 +10,7 @@ const StepCard = ({imgSrc, key, text, className}) => {
         className="number-img"
         alt={`Step ${key}`}
         style={{width: '15vw'}}
+        aria-hidden="true"
       />
       <div className="card-body">
         <p className="card-text">{text}</p>
@@ -21,7 +22,7 @@ const StepCard = ({imgSrc, key, text, className}) => {
 StepCard.propTypes = {
   className: PropTypes.string.isRequired,
   imgSrc: PropTypes.string.isRequired,
-  key: PropTypes.string.isRequired,
+  key: PropTypes.string,
   text: PropTypes.string.isRequired
 }
 
