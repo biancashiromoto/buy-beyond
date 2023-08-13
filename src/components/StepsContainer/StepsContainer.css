@@ -1,3 +1,11 @@
 .card-container > .card {
   padding: 0 5vw;
 }
+
+.active-steps {
+  background-color:silver;
+}
+
+.online-steps, .personal-shopper-steps {
+  background-color:silver;
+}
