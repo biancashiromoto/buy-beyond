@@ -1,5 +1,5 @@
 .steps-container {
-  background-color:rgb(129, 185, 185);
+  background-color:var(--light-blue);
 }
 
 .shopping-options {
@@ -17,10 +17,6 @@
   padding: 0 5vw;
 }
 
-.active-steps {
-  background-color:silver;
-}
-
-.online-steps, .personal-shopper-steps {
+.active-steps, .online-steps, .personal-shopper-steps {
   background-color:silver;
 }
