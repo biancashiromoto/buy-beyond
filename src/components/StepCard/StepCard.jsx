@@ -1,9 +1,4 @@
-import React from 'react';
-import number01 from '../../assets/images/numbers/number01.png';
-import number02 from '../../assets/images/numbers/number02.png';
-import number03 from '../../assets/images/numbers/number03.png';
-import number04 from '../../assets/images/numbers/number04.png';
-import number05 from '../../assets/images/numbers/number05.png';
+import PropTypes from "prop-types"
 
 const StepCard = ({imgSrc, key, text}) => {
   return (
@@ -21,6 +16,12 @@ const StepCard = ({imgSrc, key, text}) => {
       </div>
     </div>
   )
+}
+
+StepCard.propTypes = {
+  imgSrc: PropTypes.string.isRequired,
+  key: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 }
 
 export default StepCard;
