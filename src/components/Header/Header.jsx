@@ -5,7 +5,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img className='logo-header-image' src={logo02} style={{width: '50px'}}/>
+          <img className='logo-header-image' src={logo02} style={{width: '15vw'}}/>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
