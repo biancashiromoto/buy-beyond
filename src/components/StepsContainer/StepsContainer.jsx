@@ -22,8 +22,8 @@ const StepsContainer = () => {
   }, [isOnlineShopping]);
 
   return (
-    <>
-      <div className='online-shopping d-flex align-items-center justify-content-center'>
+    <div className='steps-container'>
+      <div className='shopping-options d-flex'>
         <label className={isOnlineShopping ? 'active-steps' : ''}>
           Online shopping
           <input
@@ -57,7 +57,7 @@ const StepsContainer = () => {
         )
         })}
       </div>
-    </>
+    </div>
   )
 }
 
