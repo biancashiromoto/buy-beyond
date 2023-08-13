@@ -24,7 +24,7 @@ const StepsContainer = () => {
   return (
     <>
       <div className='online-shopping d-flex align-items-center justify-content-center'>
-        <label className={isOnlineShopping && 'active'}>
+        <label className={isOnlineShopping ? 'active-steps' : ''}>
           Online shopping
           <input
             className='visually-hidden'
@@ -34,7 +34,7 @@ const StepsContainer = () => {
             onChange={() => setIsOnlineShopping(true)}
           />
         </label>
-        <label className={!isOnlineShopping && 'active'}>
+        <label className={!isOnlineShopping ? 'active-steps' : ''}>
           Personal shopper
           <input
             className='visually-hidden'
@@ -49,6 +49,7 @@ const StepsContainer = () => {
         {steps && steps.map((step, index) => {
           return (
           <StepCard
+            className={isOnlineShopping ? 'online-steps' : 'personal-shopper-steps'}
             imgSrc={images[index]}
             key={index}
             text={step}
