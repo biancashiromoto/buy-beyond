@@ -37,4 +37,10 @@ export const personalShopperSteps = {
       'Enjoy the convenience of having your purchases delivered to your home!'
     ]
   }
-}
+};
+
+export const email = 'youremail@email.com';
+
+export const whatsapp = '+1(781)921-0306';
+
+export const telephone = '+1(614)623-8622';
