@@ -1,11 +1,12 @@
 import logo01 from '../../assets/images/logo01.png';
+import './Header.css';
 
 const Header = () => {
   return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img className='logo-header-image' src={logo01} style={{width: '15vw'}}/>
+          <img className='logo-header-image' src={logo01} style={{width: '15vw'}} aria-hidden='true'/>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
