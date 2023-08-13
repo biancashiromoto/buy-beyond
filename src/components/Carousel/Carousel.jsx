@@ -1,9 +1,12 @@
 
-import carousel02 from '../../assets/images/carousel02.png';
-import carousel03 from '../../assets/images/carousel03.png';
-import carousel04 from '../../assets/images/carousel04.png';
+import carousel_img01 from '../../assets/images/carousel/carousel_img01.png';
+import carousel_img02 from '../../assets/images/carousel/carousel_img02.png';
+import carousel_img03 from '../../assets/images/carousel/carousel_img03.png';
+import { carousel } from '../../helpers/info';
+import './Carousel.css';
 
 const Carousel = () => {
+  const {carousel01, carousel02, carousel03} = carousel.pt_br;
   return (
     <>
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -14,24 +17,24 @@ const Carousel = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={carousel02} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Compre nos EUA e receba na sua casa!</h5>
-        <p>Suas compras internacionais entregues em confiança.</p>
+      <img src={carousel_img01} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-md-block">
+        <h5>{carousel01[0]}</h5>
+        <p>{carousel01[1]}</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={carousel03} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Compras online ou com personal shopper</h5>
-        <p>Compre com facilidade: escolha ou deixe um expert escolher por você.</p>
+      <img src={carousel_img02} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-md-block">
+        <h5>{carousel02[0]}</h5>
+        <p>{carousel02[1]}</p>
       </div>
     </div>
      <div className="carousel-item">
-      <img src={carousel04} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Encontre produtos únicos</h5>
-        <p>Produtos exclusivos ao seu alcance.</p>
+      <img src={carousel_img03} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-md-block">
+        <h5>{carousel03[0]}</h5>
+        <p>{carousel03[1]}</p>
       </div>
     </div>
   </div>
