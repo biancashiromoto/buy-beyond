@@ -13,21 +13,15 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">Serviços</a>
+              <a className="nav-link" href="#">Sobre nós</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">FAQ</a>
             </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item">
+              <a className="nav-link" href="#footer">
                 Contato
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a className="dropdown-item" href="#">Instagram</a></li>
-                <li><a className="dropdown-item" href="#">TikTok</a></li>
-                <li><a className="dropdown-item" href="#">WhatsApp</a></li>
-                <li><a className="dropdown-item" href="#">E-mail</a></li>
-              </ul>
             </li>
           </ul>
         </div>
