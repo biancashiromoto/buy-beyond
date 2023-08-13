@@ -1,3 +1,34 @@
+export const carousel = {
+  pt_br: {
+    carousel01: [
+      'Compre nos EUA e receba na sua casa',
+      'Suas compras internacionais entregues em segurança'
+    ],
+    carousel02: [
+      'Compras online ou com personal shopper',
+      'Escolha ou deixe um expert escolher por você'
+    ],
+    carousel03: [
+      'Encontre produtos únicos',
+      'Produtos exclusivos ao seu alcance'
+    ],
+  },
+  en: {
+    carousel01: [
+      'Buy from the USA and have it delivered to your home',
+      'Safe international shipping for your purchases'
+    ],
+    carousel02: [
+      'Shop online or with a personal shopping assistant',
+      'Choose or let an expert select for you'
+    ],
+    carousel03: [
+      'Find exceptional products',
+      'Exclusive items available for you'
+    ],
+  }
+}
+
 export const onlineShopSteps = {
   pt_br: {
     content: [
@@ -39,7 +70,7 @@ export const personalShopperSteps = {
   }
 };
 
-const aboutUs = {
+export const aboutUs = {
   pt_br: {
     content: [
       'Nosso objetivo é tornar as compras internacionais uma experiência simples, gratificante e sem preocupações.',
