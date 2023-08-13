@@ -39,6 +39,16 @@ export const personalShopperSteps = {
   }
 };
 
+const aboutUs = {
+  pt_br: {
+    content: [
+      'Nosso objetivo é tornar as compras internacionais uma experiência simples, gratificante e sem preocupações.',
+      'Conectamos pessoas de todo o mundo com produtos exclusivos por meio de um serviço de envio seguro e confiável.',
+      'Nossa equipe está preparada para te auxiliar em todas as etapas, da escolha do produto até a sua entrega.'
+    ]
+  }
+}
+
 export const email = 'youremail@email.com';
 
 export const whatsapp = '+1(781)921-0306';
