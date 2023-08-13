@@ -3,9 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer id="footer" className="py-0">
+    <footer id="footer" className="py-3">
       <h5 className="text-center">Contato</h5>
-      <ul className="d-flex justify-content-between px-5">
+      <ul className="d-flex justify-content-between px-5 mt-4">
         <li className="whatsapp">
           <a
             className="text-decoration-none visually-hidden"
@@ -19,7 +19,7 @@ const Footer = () => {
         <li className="telephone">
           <a
             className="text-decoration-none visually-hidden"
-            href='tel:+16148622'
+            href={`tel:${telephone}`}
             target="_blank"
             rel="noreferrer"
           >
