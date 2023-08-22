@@ -1,3 +1,9 @@
 .logo-header-image {
-  max-width: 75px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-header-image {
+    width: 75px;
+  }
 }
