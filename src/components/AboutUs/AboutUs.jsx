@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <>
       <div className='about-us-container' id='about-us'>
-        <img className='bg-image' src={bg_image} aria-label='hidden' />
+        <img className='bg-image d-md-none' src={bg_image} aria-label='hidden' />
         <div className='about-us-text d-flex flex-column'>
         <h5 className='text-center'>Sobre nós</h5>
           {content.map((phrase, index) => (
