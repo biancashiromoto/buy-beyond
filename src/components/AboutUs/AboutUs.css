@@ -33,9 +33,11 @@
 
 @media screen and (min-width: 768px) {
   .about-us-container {
+    align-items: center;
     background-image: url('../../assets/images/sky-bg.png');
     background-position: center;
     background-size: cover;
+    display: flex;
     width: 50vw;
   }
 
