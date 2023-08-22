@@ -1,0 +1,13 @@
+.number-img {
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .number-img {
+    width: 75px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+}
