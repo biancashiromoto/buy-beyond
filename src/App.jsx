@@ -12,8 +12,10 @@ function App() {
     <>
       <Header />
       <Carousel />
-      <StepsContainer />
-      <AboutUs />
+      <div className='steps-about'>
+        <StepsContainer />
+        <AboutUs />
+      </div>
       <Footer />
     </>
   )
