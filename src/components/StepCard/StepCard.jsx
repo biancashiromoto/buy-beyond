@@ -1,4 +1,5 @@
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
+import './StepCard.css';
 
 const StepCard = ({imgSrc, key, text, className}) => {
   return (
@@ -9,7 +10,6 @@ const StepCard = ({imgSrc, key, text, className}) => {
         src={imgSrc}
         className="number-img"
         alt={`Step ${key}`}
-        style={{width: '15vw'}}
         aria-hidden="true"
       />
       <div className="card-body">
