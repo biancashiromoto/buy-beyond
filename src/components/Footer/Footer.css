@@ -1,8 +1,6 @@
 footer {
-  background-color: #4c2d32;
-  color: white;
-  border-top: 1px solid black;
-  box-shadow: inset 2px 2px 75px rgba(0, 0, 0, 0.5);
+  background-color: var(--gray);
+  color: var(--black);
 }
 
 ul {
@@ -30,6 +28,13 @@ ul > li:hover {
 @media screen and (min-width: 768px) {
   ul {
     width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  ul {
+    width: 35%;
     margin: 0 auto;
   }
 }
