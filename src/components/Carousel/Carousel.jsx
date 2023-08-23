@@ -19,21 +19,21 @@ const Carousel = () => {
           <div className="carousel-item active">
             <img src={carousel_img01} className="carousel-image d-block w-100" alt="..."/>
             <div className="carousel-caption carousel-text d-md-block">
-              <h5>{carousel01[0]}</h5>
+              <h2>{carousel01[0]}</h2>
               <p>{carousel01[1]}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={carousel_img02} className="carousel-image d-block w-100" alt="..."/>
             <div className="carousel-caption carousel-text d-md-block">
-              <h5>{carousel02[0]}</h5>
+              <h2>{carousel02[0]}</h2>
               <p>{carousel02[1]}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={carousel_img03} className="carousel-image d-block w-100" alt="..."/>
             <div className="carousel-caption carousel-text d-md-block">
-              <h5>{carousel03[0]}</h5>
+              <h2>{carousel03[0]}</h2>
               <p>{carousel03[1]}</p>
             </div>
           </div>
