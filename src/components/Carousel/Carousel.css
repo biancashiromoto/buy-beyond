@@ -7,6 +7,10 @@
   padding: 10px;
 }
 
+.carousel-caption > p {
+  font-size: .75rem;
+}
+
 @media screen and (min-width: 768px) {
   .carousel {
     overflow-y: hidden;
@@ -17,6 +21,10 @@
     margin-top: -15vw;
     max-height: 100%;
     width: 100%;
+  }
+
+  .carousel-caption > p {
+    font-size: 1.25rem;
   }
 }
 
@@ -39,5 +47,9 @@
   .carousel-text {
     bottom: 55%;
     position: absolute;
+  }
+
+  .carousel-caption > p {
+    font-size: 1.5rem;
   }
 }
