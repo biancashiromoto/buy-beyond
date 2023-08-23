@@ -30,3 +30,14 @@
     position: absolute;
   }
 }
+
+@media screen and (min-width: 1800px) {
+  .carousel {
+    height: 60vh;
+  }
+
+  .carousel-text {
+    bottom: 55%;
+    position: absolute;
+  }
+}
