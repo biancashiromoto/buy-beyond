@@ -1,5 +1,8 @@
 .about-us-container {
-  height: auto;
+  background-image: url('../../assets/images/sky-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
   line-height: 2.5;
   position: relative;
   text-align: center;
