@@ -1,7 +1,9 @@
 .about-us-container {
+  background: rgb(74,188,237);
   background-image: url('../../assets/images/sky-bg.png');
-  background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat;
+  background-size: contain;
   height: 75vh;
   line-height: 2.5;
   position: relative;
