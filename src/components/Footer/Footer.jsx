@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer id="footer" className="py-3">
-      <h5 className="text-center">Contato</h5>
+      <h2 className="text-center">Contato</h2>
       <ul className="d-flex justify-content-between px-5 mt-4">
         <li className="whatsapp">
           <a
