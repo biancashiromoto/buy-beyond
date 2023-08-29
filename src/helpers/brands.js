@@ -59,16 +59,6 @@ export const brands = [
     link: 'https://www.nike.com/'
   },
   {
-    name: 'Oreo',
-    logo: oreo,
-    link: 'https://www.oreo.com/'
-  },
-  {
-    name: 'Nike',
-    logo: nike,
-    link: 'https://www.nike.com/'
-  },
-  {
     name: 'Ray Ban',
     logo: rayban,
     link: 'https://www.ray-ban.com/'
