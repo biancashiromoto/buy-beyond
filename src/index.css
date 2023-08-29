@@ -22,6 +22,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h2, label {
   font-family: var(--font-01);
   font-size: 1.25rem;
