@@ -26,17 +26,22 @@ html {
   scroll-behavior: smooth;
 }
 
-h2, label {
+label {
   font-family: var(--font-01);
   font-size: 1.25rem;
 }
 
-h3 {
-  font-family: var(--font-02);
+h2 {
+  font: 600 1.25rem var(--font-01);
 }
 
-p, a {
-  font-family: var(--font-03);
+a {
+  font: 400 1rem var(--font-03);
+}
+
+p, span {
+  font: 500 1rem var(--font-03);
+  line-height: 2.5;
 }
 
 @media screen and (min-width: 768px) {

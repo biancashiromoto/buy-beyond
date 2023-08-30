@@ -2,6 +2,17 @@
   width: 50px;
 }
 
+.card-body {
+  align-items: center;
+  display: flex;
+  height: 75px;
+}
+
+.card-body > p {
+  font: 400 1rem var(--font-03);
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .number-img {
     padding: 5px 0;
