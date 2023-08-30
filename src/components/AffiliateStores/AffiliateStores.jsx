@@ -18,6 +18,7 @@ const AffiliateStores = () => {
               className={`store-link ${store.name}`} rel="noreferrer"
             >
               <img
+                loading='lazy'
                 src={store.logo} 
                 alt={store.name}
               />
