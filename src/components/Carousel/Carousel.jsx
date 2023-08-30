@@ -17,21 +17,21 @@ const Carousel = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={carousel_img01} className="carousel-image d-block w-100" loading='lazy' aria-label="Step 1"/>
+            <img src={carousel_img01} className="carousel-image d-block w-100" aria-label="Step 1"/>
             <div className="carousel-caption carousel-text d-md-block">
               <h2>{carousel01[0]}</h2>
               <p>{carousel01[1]}</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={carousel_img02} className="carousel-image d-block w-100" loading='lazy' aria-label="Step 2"/>
+            <img src={carousel_img02} className="carousel-image d-block w-100" aria-label="Step 2"/>
             <div className="carousel-caption carousel-text d-md-block">
               <h2>{carousel02[0]}</h2>
               <p>{carousel02[1]}</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={carousel_img03} className="carousel-image d-block w-100" loading='lazy' aria-label="Step 3"/>
+            <img src={carousel_img03} className="carousel-image d-block w-100" aria-label="Step 1"/>
             <div className="carousel-caption carousel-text d-md-block">
               <h2>{carousel03[0]}</h2>
               <p>{carousel03[1]}</p>
