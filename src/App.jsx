@@ -5,6 +5,7 @@ import Carousel from './components/Carousel/Carousel';
 import StepsContainer from './components/StepsContainer/StepsContainer';
 import Footer from './components/Footer/Footer';
 import AboutUs from './components/AboutUs/AboutUs';
+import AffiliateStores from './components/AffiliateStores/AffiliateStores';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <StepsContainer />
         <AboutUs />
       </div>
+      <AffiliateStores />
       <Footer />
     </>
   )

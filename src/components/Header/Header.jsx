@@ -17,6 +17,11 @@ const Header = () => {
               <a className="nav-link" href="#about-us">Sobre nós</a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#affiliate-stores">
+                Lojas parceiras
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#footer">
                 Contato
               </a>
