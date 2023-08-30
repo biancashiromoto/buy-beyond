@@ -6,21 +6,34 @@ import StepsContainer from './components/StepsContainer/StepsContainer';
 import Footer from './components/Footer/Footer';
 import AboutUs from './components/AboutUs/AboutUs';
 import AffiliateStores from './components/AffiliateStores/AffiliateStores';
+import { useEffect, useState } from 'react';
+import Spinner from './components/Spinner/Spinner';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
 
-  return (
+  useEffect(() => {
+    setIsLoading(false);
+  }, []);
+
+    return (
     <>
       <Header />
-      <Carousel />
-      <div className='steps-about'>
-        <StepsContainer />
-        <AboutUs />
-      </div>
-      <AffiliateStores />
-      <Footer />
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <>
+          <Carousel />
+          <div className='steps-about'>
+            <StepsContainer />
+            <AboutUs />
+          </div>
+          <AffiliateStores />
+          <Footer />
+        </>
+      )}
     </>
   )
-}
+  }
 
 export default App
