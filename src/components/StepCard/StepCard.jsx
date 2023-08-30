@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import './StepCard.css';
 
-const StepCard = ({imgSrc, key, text, className}) => {
+const StepCard = ({imgSrc, text, className}) => {
   return (
     <div
       className={`${className} card flex-row align-items-center justify-content-center`}
@@ -9,7 +9,6 @@ const StepCard = ({imgSrc, key, text, className}) => {
       <img
         src={imgSrc}
         className="number-img"
-        alt={`Step ${key}`}
         aria-hidden="true"
       />
       <div className="card-body">
