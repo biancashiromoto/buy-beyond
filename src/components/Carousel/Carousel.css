@@ -8,7 +8,7 @@
 }
 
 .carousel-caption > p {
-  font-size: .75rem;
+  font: 600 .75rem var(--font-03);
 }
 
 @media screen and (min-width: 768px) {
@@ -34,7 +34,7 @@
   }
 
   .carousel-text {
-    bottom: 50%;
+    top: 50%;
     position: absolute;
   }
 }
