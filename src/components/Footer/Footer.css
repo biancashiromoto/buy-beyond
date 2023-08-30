@@ -13,15 +13,15 @@ ul > li:hover {
   transition: 400ms;
 }
 
-.whatsapp::before {
+.whatsapp-link::before {
   content: url('../../assets/images/whatsapp.svg');
 }
 
-.telephone::before {
+.telephone-link::before {
   content: url('../../assets/images/telephone.svg');
 }
 
-.email::before {
+.email-link::before {
   content: url('../../assets/images/email.svg');
 }
 

@@ -8,31 +8,33 @@ const Footer = () => {
       <ul className="d-flex justify-content-between px-5 mt-4">
         <li className="whatsapp">
           <a
-            className="text-decoration-none visually-hidden"
+            className="whatsapp-link text-decoration-none"
             href='https://wa.me/17819210306?'
             target="_blank"
             rel="noreferrer"
           >
-              {whatsapp}
+            <span className="visually-hidden">{whatsapp}</span>
           </a>
         </li>
         <li className="telephone">
           <a
-            className="text-decoration-none visually-hidden"
+            className="telephone-link text-decoration-none"
             href={`tel:${telephone}`}
             target="_blank"
             rel="noreferrer"
           >
-            {telephone}
+            <span className="visually-hidden">{telephone}</span>
           </a>
         </li>
         <li className="email">
           <a
-            className="text-decoration-none visually-hidden"
+            className="email-link text-decoration-none"
             href={`mailto:${email}`}
             target="_blank"
             rel="noreferrer"
-          >{email}</a>
+          >
+            <span className="visually-hidden">{email}</span>
+          </a>
         </li>
       </ul>
     </footer>
