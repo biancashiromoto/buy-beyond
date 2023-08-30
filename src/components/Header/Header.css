@@ -2,6 +2,10 @@
   width: 50px;
 }
 
+.nav-item:hover {
+  transform: scale(1.125, 1.125) translateX(5%);
+}
+
 @media screen and (min-width: 768px) {
   .logo-header-image {
     width: 75px;
@@ -13,4 +17,8 @@
     font-size: 1.25rem;
     padding-left: 2.25rem;
   }
+
+.nav-item:hover {
+  transform: scale(1.125, 1.125);
+}
 }
