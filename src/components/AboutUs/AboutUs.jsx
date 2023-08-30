@@ -7,7 +7,7 @@ const AboutUs = () => {
     <>
       <div className='about-us-container' id='about-us'>
         <div className='about-us-text d-flex flex-column'>
-          <h3 className='text-center'>Sobre nós</h3>
+          <h2 className='text-center'>Sobre nós</h2>
             {content.map((phrase, index) => (
               <span key={index}>{phrase}</span>
             ))}
