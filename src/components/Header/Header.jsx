@@ -5,6 +5,7 @@ const Header = () => {
   return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
+        <h1 className='d-none'>Buy Beyond</h1>
         <a className="navbar-brand" href="#">
           <img className='logo-header-image' src={logo01} aria-hidden='true'/>
         </a>
